@@ -1,6 +1,6 @@
 {
-  "name": "nemmo/yii2-attachments",
-  "description": "Extension for file uploading and attaching to the models",
+  "name": "nemmo/yii2-media",
+  "description": "Extension for file uploading and attaching to the models with functions for handling media",
   "type": "yii2-extension",
   "keywords": [
     "yii2",
@@ -10,12 +10,12 @@
     "upload"
   ],
   "license": "BSD-4-Clause",
-  "homepage": "https://github.com/Nemmo/yii2-attachments",
+  "homepage": "https://github.com/Sampa/yii2-attachments",
   "authors": [
     {
-      "name": "Alimzhan Abuov aka Nemmo",
-      "email": "alimzhan.abu@yandex.kz",
-      "homepage": "http://alimzhan.kz",
+      "name": "Daniel van den Berg aka Sampa",
+      "email": "idrini@gmail.com",
+      "homepage": "https://github.com/sampa",
       "role": "Developer"
     }
   ],
@@ -23,7 +23,7 @@
     "php": ">=5.4.0",
     "yiisoft/yii2": "~2.0.0",
     "kartik-v/yii2-widget-fileinput": "~1.0.0",
-    "himiklab/yii2-colorbox-widget": "*"
+    "2amigos/yii2-gallery-widget": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0",
@@ -31,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "nemmo\\attachments\\": "src"
+      "sampa\\attachments\\": "src"
     }
   },
   "extra": {
